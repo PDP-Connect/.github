@@ -1,17 +1,6 @@
 #!/bin/sh
-# Optional, opt-in: add a vendor-neutral "Assisted-by: AI" trailer to commits.
-#
-# OFF by default. It only runs when you opt in, so contributors who do not use
-# AI never get the trailer.
-#
-# Turn it on for your environment (e.g. in your shell profile, or your AI tool's
-# env) by exporting:  PDPP_AI_ASSISTED=1
-# Skip it for a single commit even when on:  PDPP_AI_ASSISTED=0 git commit ...
-#
-# Install (once per clone):  git config core.hooksPath .github/hooks
-#
-# This is disclosure context, not a gate, and it names no vendor. Your DCO
-# sign-off stays yours and separate.
+# Opt-in AI-assistance trailer. Off unless PDPP_AI_ASSISTED=1.
+# Install: git config core.hooksPath .github/hooks
 
 [ "${PDPP_AI_ASSISTED:-0}" = "1" ] || exit 0
 MSG_FILE="$1"
