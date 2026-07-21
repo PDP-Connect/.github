@@ -11,7 +11,7 @@ checks. Run those before opening a pull request.
 - Keep it focused: one change, one purpose.
 - Use a draft PR while you iterate; mark it ready when it is.
 - We squash-merge, so your branch history stays yours.
-- Sign off your commits (`git commit -s`) — a bot enforces the DCO.
+- Sign off your commits (`git commit -s`); a bot enforces the DCO.
 
 ## AI assistance
 
