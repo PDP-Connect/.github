@@ -1,0 +1,29 @@
+name: Bug report
+description: Something is not working as expected
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. Clear, specific reports get fixed faster.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead.
+      placeholder: Steps to reproduce, expected vs actual.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Which version, release, or commit are you on?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Logs, environment, screenshots. Redact anything personal.
+    validations:
+      required: false
