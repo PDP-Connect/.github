@@ -15,11 +15,11 @@ checks. Run those before opening a pull request.
 
 ## AI assistance
 
-Building with AI is welcome. If AI helped meaningfully, add an `Assisted-by: AI`
-trailer to the commit so reviewers can calibrate their scrutiny; a local hook can
-add it for you (`.github/hooks/prepare-commit-msg`). It is vendor-neutral and sits
-alongside your sign-off. We review contributions on whether they are good, not how
-they were made.
+Building with AI is welcome. If AI helped meaningfully, add `Assisted-by: AI` to
+the commit and as a standalone line in the pull request description; a local hook
+can add the commit trailer for you (`.github/hooks/prepare-commit-msg`). It is
+vendor-neutral and sits alongside your sign-off. We review contributions on
+whether they are good, not how they were made.
 
 ## Security
 
