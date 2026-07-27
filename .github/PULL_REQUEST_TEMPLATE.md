@@ -8,9 +8,8 @@
 
 <!-- What you ran or checked. If no tests, say why. -->
 
----
-
-- [ ] Commits are signed off (`git commit -s`)
-- [ ] If AI helped meaningfully, commits and the PR description each include `Assisted-by: AI`
-
-<!-- If AI helped meaningfully, add `Assisted-by: AI` as a standalone line below. -->
+<!-- Before submitting:
+- Sign off every commit with `git commit -s`.
+- If AI helped meaningfully, add `Assisted-by: AI` to each assisted commit
+  and as a standalone line in the PR description.
+-->
