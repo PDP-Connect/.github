@@ -11,4 +11,6 @@
 ---
 
 - [ ] Commits are signed off (`git commit -s`)
-- [ ] If AI helped meaningfully, commits carry `Assisted-by: AI`
+- [ ] If AI helped meaningfully, commits and the PR description each include `Assisted-by: AI`
+
+<!-- If AI helped meaningfully, add `Assisted-by: AI` as a standalone line below. -->
