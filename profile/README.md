@@ -22,7 +22,7 @@ PDPP v0.1.0 is an LFDT Community Specification. PDP-Connect is a live LFDT Lab.
 
 ## Get involved
 - Read the spec: https://pdpp.dev
-- Working sessions (August 2026): [LFDT community calendar link](https://zoom-lfx.platform.linuxfoundation.org/meetings/lf-decentralized-trust?view=week)
+- Working sessions (every other week on Thursday at 4PM Pacific, from 24 September 2026): [LFDT Labs calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/lf-decentralized-trust-labs?view=week)
 - Discord: [https://discord.lfdecentralizedtrust.org](https://discord.lfdecentralizedtrust.org/) (#pdp-connect)
 - Good first issues: see the [data-connect](https://github.com/PDP-Connect/data-connect) and [data-connectors](https://github.com/PDP-Connect/data-connectors) repos
 
